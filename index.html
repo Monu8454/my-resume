@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monu Kumar - Portfolio</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;}
+    body{scroll-behavior:smooth;background:linear-gradient(180deg,#0f172a,#1e293b);color:#f1f5f9;}
+    header{
+      position:fixed;top:0;left:0;width:100%;
+      background:rgba(15,23,42,0.9);backdrop-filter:blur(6px);
+      display:flex;justify-content:space-between;align-items:center;
+      padding:12px 20px;z-index:1000;
+    }
+    header h1{font-size:18px;color:#38bdf8;}
+    nav a{color:#f1f5f9;text-decoration:none;margin-left:15px;font-size:14px;}
+    nav a:hover{color:#38bdf8;}
+    section{padding:90px 20px;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
+    #home img{width:140px;height:140px;border-radius:50%;object-fit:cover;margin-bottom:15px;border:3px solid #38bdf8;}
+    h2{margin-bottom:10px;color:#38bdf8;}
+    p{max-width:600px;margin:0 auto 10px;}
+    .btn{display:inline-block;background:#38bdf8;color:#0f172a;padding:10px 20px;margin-top:10px;border-radius:25px;text-decoration:none;font-weight:bold;}
+    .btn:hover{background:#0ea5e9;}
+    .card{background:rgba(255,255,255,0.05);padding:20px;border-radius:12px;margin:10px 0;width:100%;max-width:500px;}
+    footer{padding:20px;text-align:center;background:#0f172a;color:#94a3b8;}
+    /* Responsive */
+    @media(max-width:600px){
+      nav a{margin-left:8px;font-size:12px;}
+      header h1{font-size:16px;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monu Kumar</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <img src="\Users\shreejee\Desktop\monu kumar temple.jpg" >
+    <h2>Hi, I'm Monu Kumar</h2>
+    <p>Software Engineer • Frontend & Backend Developer</p>
+    <a href="#about" class="btn">About Me</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        Passionate developer skilled in HTML, CSS, JavaScript, React, and Python.
+        I build modern, responsive, and fast websites that work on all devices.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>A personal website showcasing resume and projects.</p>
+    </div>
+    <div class="card">
+      <h3>E-commerce Demo</h3>
+      <p>Online shop with cart and checkout features.</p>
+    </div>
+    <div class="card">
+      <h3>Task Manager</h3>
+      <p>App to track daily tasks and productivity.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Email: monu845426r@gmail.com</p>
+      <p>Phone: +91-7542067181</p>
+      <a href="C:\Users\shreejee\Downloads\RESUME.docx" download class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Monu Kumar • All Rights Reserved
+  </footer>
+</body>
+</html>
